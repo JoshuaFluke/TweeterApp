@@ -60,24 +60,24 @@ app.directive('jfMainApp', function () {
         }
 
         if (tweet.length > 140) {
-          callback('Tweet more than 140 characters');
+          return callback('Tweet more than 140 characters');
         }
 
         if (tweet.length < 5) {
-          callback('Tweet less than 5 characters');
+          return callback('Tweet less than 5 characters');
         }
 
         if (containsAWS) {
           // valid
-          callback();
+          return callback();
         }
 
         if (containsMicrosoft || containsWindows) {
-          callback('Contains Microsoft or Windows');
+          return callback('Contains Microsoft or Windows');
         }
 
         // valid
-        callback();
+        return callback();
       };
 
     },
