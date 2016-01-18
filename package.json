@@ -13,6 +13,7 @@
     "simple-http": "0.0.23"
   },
   "dependencies": {
+    "bower": "^1.7.2",
     "express": "^4.13.3"
   }
 }
