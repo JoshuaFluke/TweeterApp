@@ -157,8 +157,4 @@ app.directive('jfTwitterSubmissions', function () {
   };
 });
 
-// to-do
-// need to host this, possibly on heroku
 
-// (things that could be done to improve this)
-// more scalable structure, tests, minify source code
