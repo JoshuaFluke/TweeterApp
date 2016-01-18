@@ -1,0 +1,15 @@
+<div>
+  <button ng-click="jfMainCtrl.authenticate()" ng-hide="jfMainCtrl.authenticated">Sign in with Twitter</button>
+  <form name="tweetForm" ng-submit="jfMainCtrl.tweet(tweetInput)">
+    <input type="text" ng-model="tweetInput"/>
+    <button type="submit">Tweet</button>
+  </form>
+  <div class="successful-tweets">
+    <div class="tweet-list-header"> Successful submissions </div>
+    <jf-twitter-submissions submissions="jfMainCtrl.successfulSubmissions"></jf-twitter-submissions>
+  </div>
+  <div class="failed-tweets">
+    <div class="tweet-list-header"> Failed submissions </div>
+    <jf-twitter-submissions submissions="jfMainCtrl.failedSubmissions"></jf-twitter-submissions>
+  </div>
+</div>

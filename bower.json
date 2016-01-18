@@ -1,0 +1,12 @@
+{
+  "name": "twitter-api",
+  "version": "0.0.0",
+  "authors": [
+    "Josh Fluke <jfluke717@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "oauthio-web": "~0.5.0"
+  }
+}

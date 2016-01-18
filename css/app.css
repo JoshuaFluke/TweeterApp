@@ -1,0 +1,11 @@
+.successful-tweets {
+    color: green;
+}
+
+.failed-tweets {
+    color: red;
+}
+
+.tweet-list-header {
+    font-weight: bold;
+}
